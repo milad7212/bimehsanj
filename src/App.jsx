@@ -17,9 +17,9 @@ function App() {
   }, []);
   return (
     <div className="bg-[#7e6aff] min-h-screen">
-      <div className="  pt-20 px-4 max-w-7xl mx-auto grid grid-cols-2">
+      <div className="  pt-20 px-4 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2">
         <div className="">
-          <h1 className="md:text-3xl font-bold text-white  ">یادآوری بیمه</h1>
+          <h1 className="text-2xl md:text-3xl font-bold text-white  ">یادآوری بیمه</h1>
           <p className=" text-white mt-2 font-bold">با تنظیم اطلاعات، بیمه شما را یک روز قبل از سررسید به شما یادآوری میکنیم</p>
           
           <div className="my-8">
